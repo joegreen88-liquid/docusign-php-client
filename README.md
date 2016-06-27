@@ -1,6 +1,13 @@
+FORKED
+======
+
+Had to fork the docusign php client repository to fix the composer setup. It seems that the package name was
+changed which caused the original version to break. This fork has fixed the composer setup so that we can use the
+old version.
+
 DocuSign PHP Client
 ================================
-e
+
 This is a client library to help you get started with DocuSign eSignature API.
 To get started with using this library go to <a href="http://www.docusign.com/devcenter">http://www.docusign.com/devcenter</a> and get
 a free development account.  After you get an account and generate an Integrator Key (App Key) 
